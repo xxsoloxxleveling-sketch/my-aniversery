@@ -51,3 +51,17 @@ I already ran `npm run build` and your project compiled perfectly. All assets (m
 
 ### 💡 Tip for Mobile
 When you share the link with your partner, it will work on their phone too! The design we built is responsive.
+
+## ⚙️ Vercel Project Settings
+If Vercel doesn't automatically detect your project type, use these settings:
+
+| Setting | Value |
+| :--- | :--- |
+| **Framework Preset** | `Vite` |
+| **Root Directory** | `./` (default) |
+| **Build Command** | `npm run build` |
+| **Output Directory** | `dist` |
+| **Install Command** | `npm install` |
+
+You shouldn't need to change environment variables unless you used them in the code.
+
